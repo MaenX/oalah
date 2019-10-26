@@ -7,226 +7,77 @@
 	
 <link rel="icon" type="image/png" sizes="32x32" href="https://4.bp.blogspot.com/-gzglVSg12mk/XYxxTERnMnI/AAAAAAAAAvc/U8QCbIOLRk091S6dgTSz5nBzdL6qnFruwCLcBGAsYHQ/s1600/onanion.png">
 	
-<title>Sakurasou no Pet na Kanojo</title>
+<title>SEMF*CK</title>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-:root {
---color: #faa700;
---color-light: #f5ede1;
---dark: #a7a7a7;
---dark: #8a8a8a;
---darker: #303030;
---sans-serif: 'Roboto', sans-serif;
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
-body {
-margin: 0;
-height: 100%;
-width: 100%;
-font-family: var(--sans-serif);
-background: #eeeeee;
-}
-body {
-background: #0a1a24;
+.navbar-material {
+  box-shadow: 3px 0px 3px;
 }
 
-.background {
-width: 100%;
-height: 56.25vw;
-background: url(https://wallpapercave.com/wp/wp2120023.jpg) center/cover;
-box-shadow: inset 0px -17vw 20vw 1vw #0a1a24;
-position: absolute;
-top: 0;
-z-index: -1;
-}
-.background img {
-max-width: 100%;
-max-height: 100vh;
-box-shadow: inset 0px -17vw 30vw 1vw #131313;
-}
-.background + section {
-margin-top: 60vmin;
-background: transparent;
---dark: rgba(white, .5);
---dark: rgba(white, .6);
---darker: rgba(white, .8);
-}
-.background + section .bookmark {
-border-color: rgba(255, 255, 255, 0.2);
-}
-.background + section .bookmark svg {
-fill: #fff;
-}
-.background + section .album-tracks {
-background: rgba(255, 255, 255, 0.1);
-border: none;
+.navigation {
+  z-index: 9;
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
 }
 
-section {
-background: #fafafa;
-margin: 100px 56px;
-padding: 20px 56px;
-color: var(--darker);
-color: rgba(255, 255, 255, 0.8);
-}
-section .album-info:after {
-content: " ";
-display: block;
-height: 0;
-clear: both;
-}
-section .album-art {
-float: left;
-width: 220px;
-margin-right: 20px;
-margin-bottom: 20px;
-}
-section .album-art * {
-border-radius: 3px;
-}
-section .album-art img {
-width: 100%;
-margin-bottom: 10px;
-margin-top: -80px;
-box-shadow: 0 5px 60px -3px rgba(0, 0, 0, 0.18);
-}
-section .play {
-display: flex;
-flex-wrap: initial;
-justify-content: center;
-align-items: center;
-align-content: initial;
-color: white;
-background: var(--color);
-padding: 10px;
-text-transform: uppercase;
-flex: 1 0 50%;
-}
-section .bookmark {
-display: flex;
-flex-wrap: initial;
-justify-content: center;
-align-items: center;
-align-content: initial;
-width: 48px;
-height: 48px;
-border: 3px solid var(--color-light);
-margin-left: 10px;
-}
-section .album-details > * {
-padding: 10px 0;
-}
-section h2 {
-display: flex;
-flex-wrap: initial;
-justify-content: initial;
-align-items: center;
-align-content: initial;
-color: var(--dark);
-font-size: 16px;
-font-weight: 500;
-text-transform: uppercase;
-}
-section h2 img {
-width: 24px;
-border-radius: 50%;
-margin-right: 10px;
-}
-section h1 {
-font-size: 50px;
-font-weight: 300;
-word-wrap: break-word;
-}
-section h1 + span {
-color: var(--dark);
-}
-section h1 + span span:first-child {
-padding-right: 20px;
-}
-section p {
-margin-top: 15px;
-}
-section .album-tracks {
-background: #f8f8f8;
-border: 1px solid #efefef;
-margin-top: 20px;
-}
-@media (max-width: 800px) {
-section {
-margin: 100px 36px 36px 36px;
-}
-}
-@media (max-width: 700px) {
-section .album-art {
-width: 100%;
-}
-section .album-art img {
-width: auto;
-max-width: 100%;
-margin: -100px auto 10px auto;
-display: block;
-}
-section .album-details {
-float: left;
-max-width: 100%;
-}
-}
-@media (max-width: 550px) {
-section {
-margin: 100px 20px 20px 20px;
-padding: 20px 16px;
-}
-section ol {
-padding: 16px;
-}
+.navigation .nav a {
+  margin: 0 auto;
+  font-size: 1.45em;
+  width: 250px;
+  text-align: center;
+  border: 2px solid ;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-ol {
-list-style-type: none;
-padding: 20px 36px;
-font-weight: 500;
-}
-ol li {
-counter-increment: number;
-display: flex;
-flex-wrap: initial;
-justify-content: space-between;
-align-items: center;
-align-content: initial;
-height: 45px;
-color: var(--dark);
-}
-ol li span:not(:last-child) {
-margin-right: 2em;
-}
-@media (max-width: 700px) {
-ol li span:not(:last-child) {
-margin-right: 1em;
-}
-}
-ol li span:first-child {
-white-space: nowrap;
-text-overflow: ellipsis;
-overflow: hidden;
-color: var(--darker);
-}
-ol li span:first-child:before {
-content: counter(number);
-margin-right: 2em;
-color: var(--dark);
-display: inline-block;
-text-align: end;
-width: 20px;
+.navigation .nav.social a {
+  width: 100px;
+  border: 0;
+  margin: 10px;
+  border-radius: 5px;
 }
 
-.actions {
-display: flex;
-flex-wrap: initial;
-justify-content: initial;
-align-items: initial;
-align-content: initial;
-flex: 1 1 100%;
+.navigation .nav button {
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.main { 
+  height: 1000px;
+}
+
+.dropdown-divider {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+#footer-widgets {
+  padding: 30px;
+  border-bottom: 1px solid white;
+}
+
+h5 {
+  margin: 0;
+  padding: 10px;
 }
 </style>
 
@@ -234,49 +85,73 @@ flex: 1 1 100%;
 
 <body>
 
-<div class="background"></div>
-<section>
-<div class="album-info">
-<div class="album-art"><img src="https://cdn.myanimelist.net/images/anime/4/43643l.jpg"/>
-<div class="actions">
-<div class="play">Play</div>
-<a href="javascript:bookmark();"><div class="bookmark">
-<svg xmlns="http://www.w3.org/2000/svg" fill="#faa800" height="24" viewbox="0 0 24 24" width="24">
-<path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"></path>
-<path d="M0 0h24v24H0z" fill="none"></path>
-</svg>
-</div></a>
+<!-- Main Site Wrapper-->
+<div class="wrapper">
+  <!-- Header Navbar-->
+  <nav class="navbar navbar-dark bg-dark">
+    <!--Branding--><a class="navbar-brand" href="#">Author</a>
+    <button class="btn btn-outline-light nav-show">Menu</button>
+  </nav>
+  <!-- Site Navigation-->
+  <div class="navigation bg-dark">
+    <nav class="nav flex-column">
+      <button class="btn btn-outline-light fa fa-times fa-2x nav-hide"></button>
+      <div class="dropdown-divider"></div><a class="nav-link" href="#">Home</a><a class="nav-link" href="#">Translated</a><a class="nav-link" href="#">Original</a><a class="nav-link" href="#">Premium</a><a class="nav-link" href="#">Login</a><a class="nav-link" href="#">Register</a>
+      <div class="dropdown-divider"></div>
+      <button class="btn btn-outline-light fa fa-sun fa-2x toggleDarkMode"></button>
+      <div class="dropdown-divider"></div>
+      <nav class="nav justify-content-center social"><a class="nav-link" href="#"><i class="fab fa-facebook fa-2x"></i></a><a class="nav-link" href="#"><i class="fab fa-twitter fa-2x"></i></a><a class="nav-link" href="#"><i class="fab fa-discord fa-2x"></i></a><a class="nav-link" href="#"><i class="fa fa-envelope fa-2x"></i></a></nav>
+    </nav>
+  </div>
+  <div class="main"></div>
+  <footer class="bg-dark">
+    <div id="footer-widgets">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 class="text-light">Author</h1>
+          </div>
+          <div class="col-md-8">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <nav class="nav flex-column"><a class="nav-link disabled text-light">LINKS</a><a class="nav-link" href="#">RSS Feed</a><a class="nav-link" href="#">Archive</a><a class="nav-link" href="#">Blog</a><a class="nav-link" href="#">Anonymous</a><a class="nav-link" href="#">Sitemap</a></nav>
+                </div>
+                <div class="col-md-4">
+                  <nav class="nav flex-column"><a class="nav-link disabled text-light">RESOURCES</a><a class="nav-link" href="#">PWA</a><a class="nav-link" href="#">Site Tour</a><a class="nav-link" href="#">F.A.Q</a><a class="nav-link" href="#">Privacy Policy</a><a class="nav-link" href="#">Terms of Services</a></nav>
+                </div>
+                <div class="col-md-4">
+                  <nav class="nav flex-column"><a class="nav-link disabled text-light">PARTNERS</a><a class="nav-link" href="#">Ehmed</a><a class="nav-link" href="#">Architect</a><a class="nav-link" href="#">Webnovel Ninja</a><a class="nav-link" href="#">Pledge of Authors</a><a class="nav-link" href="#">Link A</a></nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><span class="text-center text-light">
+      <h5>&copy; 2018 Author</h5></span>
+  </footer>
 </div>
-</div>
-<div class="album-details">
-<h2> <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-<path fill="#000000" d="M5.41,21L6.12,17H2.12L2.47,15H6.47L7.53,9H3.53L3.88,7H7.88L8.59,3H10.59L9.88,7H15.88L16.59,3H18.59L17.88,7H21.88L21.53,9H17.53L16.47,15H20.47L20.12,17H16.12L15.41,21H13.41L14.12,17H8.12L7.41,21H5.41M9.53,9L8.47,15H14.47L15.53,9H9.53Z" />
-</svg>Comedy, Drama, Romance, School, Slice of Life</h2>
-<h1>Sakurasou no Pet na Kanojo</h1><span> <span>Hard Rock </span><span>&copy; 2016 Atlantic Recording Corporation</span></span>
-<p>When abandoned kittens and his good conscience force second year Sorata Kanda to move into Suimei High School’s infamous Sakura Hall, the satellite dorm and its eccentric, misfit residents turn his life upside down. The decidedly average Sorata finds it difficult to fit in with the bizarre collection of dorm residents like Misaki, an energetic animator; Jin, a playwright playboy; Ryuunosuke, a reclusive programmer; and Chihiro, the dorm manager, art teacher, and party girl.
 
-<p>Sorata's friend Nanami, a second year student and aspiring voice actress, pushes him to find new owners for the many cats so that he can quickly move back into the regular dorms. However, his desire to escape Sakura Hall wavers when the pet-like and infantile second year Mashiro Shiina, a world-class artistic savant looking to become a mangaka, transfers in during the spring trimester and quickly latches onto him.</p>
-
-<p>Supported by each other's quirks, Sorata and Mashiro come out of their shells and trigger change in the lives of those around them. Based on the light novel series of the same name, Sakurasou no Pet na Kanojo explores the fine threads connecting talent, hard work, romance, and friendship with its ensemble cast.</p>
-</div>
-</div>
-<div class="album-tracks">
-<ol>
-<li> <span>Feel Invincible</span><span>3:49</span></li>
-<li> <span>Back From The Dead</span><span>3:33</span></li>
-<li> <span>Stars</span><span>3:47</span></li>
-<li> <span>I Want To Live</span><span>3:28</span></li>
-<li> <span>Undefeated</span><span>3:35</span></li>
-<li> <span>Famous</span><span>3:18</span></li>
-<li> <span>Lions</span><span>3:24</span></li>
-<li> <span>Out Of Hell</span><span>3:34</span></li>
-<li> <span>Burn It Down</span><span>3:16</span></li>
-<li> <span>Watching For Comets</span><span>3:29</span></li>
-<li> <span>Saviors Of The World</span><span>3:46</span></li>
-<li> <span>The Resistance</span><span>3:52</span></li>
-</ol>
-</div>
-</section>
+<script>
+$(document).ready(() => {
+  $('.navigation a').addClass('text-light');
+  $(window).on('scroll', () => {
+    if($(window).scrollTop() > 0) {
+      $('.navbar').addClass('navbar-material');
+    }
+    if($(window).scrollTop() == 0) {
+      $('.navbar').removeClass('navbar-material');
+    }
+  });
+  $('.nav-hide').click(() => {
+    $('.navigation').slideUp();
+  });
+  $('.nav-show').click(() => {
+    $('.navigation').slideDown();
+  });
+});
+</script>
 
 </body>
 </html>
